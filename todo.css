@@ -1,0 +1,141 @@
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.span {
+    font-weight: bolder;
+}
+
+.label-element {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.todo-nav-bar{
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(207, 204, 204);
+}
+
+.pending-btn {
+    border-top-left-radius: 10px;
+    width: 138px;
+    height: 50px;
+    color: #bbbcbd;
+    background-color: #dae2ec;
+    font-size: 18px;
+    border: 0px;
+}
+
+.completed-btn {
+    border-top-right-radius: 10px;
+    width: 138px;
+    height: 50px;
+    color: #bbbcbd;;
+    background-color: #dae2ec;
+    font-size: 18px;
+    border: 0px;
+}
+
+.selected-btn {
+    border-bottom: none;
+    border-top: 3px solid rgb(76, 141, 221);
+    background-color: white;
+    color: black;
+}
+
+.my-tasks-container {
+    padding: 25px;
+    border: 0px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.userInput {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 30px;
+    outline: none;
+}
+
+.pending-tasks-container {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    min-height: 40vh;
+}
+
+.completed-tasks-container {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    min-height: 40vh;
+}
+
+.checkbox-input {
+    cursor: pointer;
+    height: 19px;
+    width: 18px;
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+.label-element-container {
+    border: 0px solid;
+    border-left: 4px solid rgb(56, 136, 99);
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(179, 231, 255);
+}
+
+.checkbox-label {
+    width: 82%;
+    border: 0px solid;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.delete-icon-container {
+    width: 18%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.delete-icon {
+    padding: 15px;
+    color: rgb(255, 10, 10);
+}
+
+.add-btn-icon {
+    position: absolute;
+    top: 117px;
+    right: 30px;
+    cursor: pointer;
+    width: 21px;
+}
+
+.erase-input-icon {
+    top: 128px;
+    right: 48px;
+    padding-left: 40px;
+}
+
+.completed-tasks-containerEmpty-img {
+    width: 260px;
+}
+
+.pending-tasks-containerEmpty-img {
+    width: 260px;
+}
